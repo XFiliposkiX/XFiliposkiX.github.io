@@ -34,7 +34,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.discord-link {
+.link {
 	display: inline-block;
 	background-color: #5865F2;
 	color: #fff;
@@ -45,7 +45,7 @@ body {
 	margin-top: 20px;
 }
 
-.discord-link:hover {
+.link:hover {
 	background-color: #4F54F5;
 	opacity: 0.5;
 }
