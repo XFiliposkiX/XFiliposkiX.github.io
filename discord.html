@@ -46,6 +46,16 @@
     <img src="/images/pfp.png" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
     <h1>XFiliposkiX</h1>
     </div> 
-    <a href="/404" class="button">Copy</a>
+<button class="button" id="copyButton">Copy</button>
+<script>
+document.getElementById('copyButton').addEventListener('click', function() {
+    var text = 'This is the text you want to copy';
+    navigator.clipboard.writeText(text).then(function() {
+        console.log('Text copied to clipboard');
+    }, function(err) {
+        console.error('Error in copying text: ', err);
+    });
+});
+</script>
 </body>
 </html>
