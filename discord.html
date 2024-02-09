@@ -46,10 +46,10 @@
     <img src="/images/pfp.png" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
     <h1>XFiliposkiX</h1>
     </div> 
-<button class="button" id="copyButton">Copy</button>
+<a class="button" id="copyButton">Copy</a>
 <script>
 document.getElementById('copyButton').addEventListener('click', function() {
-    var text = 'This is the text you want to copy';
+    var text = 'xfiliposkix';
     navigator.clipboard.writeText(text).then(function() {
         console.log('Text copied to clipboard');
     }, function(err) {
