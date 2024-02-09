@@ -43,10 +43,11 @@ body {
 	border-radius: 5px;
 	font-size: 20px;
 	margin-top: 20px;
+	transition: transform 0.3s ease-in-out;
 }
 
 .link:hover {
 	background-color: #4F54F5;
 	opacity: 0.5;
-	scale: 1.2;
+	transform: scale(1.2);
 }
