@@ -23,16 +23,18 @@ p {
 }
 
 a {
-  display: inline-block;
-  background-color: #4CAF50;
-  color: white;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease-in-out;
+	display: inline-block;
+	background-color: #5865F2;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 20px;
+	transition: transform 0.3s ease-in-out;
 }
 
 a:hover {
-  background-color: #3e8e41;
-  transform: scale(1.2);
+	background-color: #4F54F5;
+	opacity: 0.5;
 }
