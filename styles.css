@@ -49,5 +49,4 @@ body {
 .link:hover {
 	background-color: #4F54F5;
 	opacity: 0.5;
-	transform: scale(1.2);
 }
